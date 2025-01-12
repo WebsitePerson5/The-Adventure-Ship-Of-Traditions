@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Delivery (The Adventure Ship Of Traditions)</title>
+    </head>
+
+    <style>
+        #FullPage{background-color:green;}
+
+        #TopOfPage{background-color:green; color:white;}
+        #AreaForTopInformation{height:52px; width:550px;}
+        .TopInformation{text-indent:30px;}
+        #SpecificPicture{height:100px; width:225px;}
+        #NavigationBar{list-style-type:none; margin:0 auto; padding:0 auto; overflow:hidden;}
+        .PartsOfNavigationBar{display:inline; float:left; border-style:solid; border-color:black; border-width:5px; background-color:white;}
+        .PartsOfNavigationBar .LocationOfPage{display:block; padding:8px; color:black; text-decoration:none; padding:14px 16px auto;}
+
+        #MiddleOfPage{background-color:white; color:black;}
+        #FastNavigation{background-color:black; color:white; width:100px; height:50px; margin:20px auto;}
+        #FullFinalOrder{background-color:white; border-color:solid 1px black; margin:auto;}
+        #HavingFood{background-color:black; color:white;}
+
+        #BottomOfPage{background-color:green;color:black;}
+    </style>
+
+    <body id="FullPage">
+        <div id="TopOfPage">
+            <table>
+                <tr>
+                    <td id="AreaForTopInformation">
+                        <h1 class="TopInformation" style="font-weight:bold;">The Adventure Ship Of Traditions</h1>
+                        <p class="TopInformation" style="font-weight:bold;">A Restaurant Of Indian Vegetarian Food</p>
+                    </td>
+                    <td id="AreaForTopPicture"><img src="UsedPicturesArea/DesignForPictureForRepresentingBusinessForWebsite.png" alt="Business" id="SpecificPicture"></img></td>
+                </tr>
+            </table>
+            <ul id="NavigationBar">
+                <li class="PartsOfNavigationBar"><a href="WebsiteMainPage.html" class="LocationOfPage">Home</a></li>
+                <li class="PartsOfNavigationBar"><a href="AboutPageForWebsite.html" class="LocationOfPage">About</a></li>
+                <li class="PartsOfNavigationBar"><a href="ContactPage.html" class="LocationOfPage">Contact</a></li>
+                <li class="PartsOfNavigationBar"><a href="ReferencesPage.html" class="LocationOfPage">References</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div id="MiddleOfPage">
+            <br>
+            <a href="WebsiteMainPage.html"><button type="button" id="FastNavigation">Back</button></a>
+            <br>
+            <h2 style="text-indent:25px;">Online Delivery</h2>
+            <div id="FullFinalOrder" style="text-indent:20px;"><form>
+                <u><p>Basic Information</p></u>
+                <p style="display: inline-block;">First Name: </p><input type="text" style="display: inline-block;"></input>
+                <br>
+                <p style="display: inline-block;">Last Name: </p><input type="text" style="display: inline-block;"></input>
+                <br>
+                <p style="display: inline-block;">Phone Number: </p><input type="tel" style="display: inline-block;"></input>
+                <br>
+                <p style="display: inline-block;">Location: </p> <input type="text" style="display: inline-block;"></input>
+                <u><p>Order (Quantity)</p></u>
+                <p style="display: inline-block">Vegetable Samosas: </p><input type="number" id="NumberOfVegetableSamosas" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Pani Puri: </p><input type="number" id="NumberOfPaniPuri" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Mushroom Tartlets: </p><input type="number" id="NumberOfMushroomTartlets" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Vegetable Pakoras: </p><input type="number" id="NumberOfVegetablePakoras" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Vegatable Tempuras: </p><input type="number" id="NumberOfVegetableTempuras" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Dosa: </p><input type="number" id="NumberOfDosa" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Dosa + Potato: </p><input type="number" id="NumberOfDosaAndPotato" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Chana Masala Over Rice: </p><input type="number" id="NumberOfChanaMasala" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Bhindi Masala Over Rice: </p><input type="number" id="NumberOfBhindiMasala" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Mushroom Kadai Over Rice: </p><input type="number" id="NumberOfMushroomKadai" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Dal Tadka: </p><input type="number" id="NumberOfDalTadka" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Gulab Jamub: </p><input type="number" id="NumberOfGulabJamun" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Kulfi: </p><input type="number" id="NumberOfKulfi" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Kheer: </p><input type="number" id="NumberOfKheer" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Gajar Ka Halwa: </p><input type="number" id="NumberOfGajarKaHalwa" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Kaju Katli: </p><input type="number" id="NumberOfKajuKatli" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Water: </p><input type="number" id="NumberOfWater" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Coffee: </p><input type="number" id="NumberOfCoffee" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Coffee + Milk: </p><input type="number" id="NumberOfCoffeeAndMilk" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Tea: </p><input type="number" id="NumberOfTea" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Tea + Milk: </p><input type="number" id="NumberOfTeaAndMilk" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Mango Lassi: </p><input type="number" id="NumberOfMangoLassi" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Thandai: </p><input type="number" id="NumberOfThandai" style="display: inline-block" value="0"></input>
+                <br>
+                <p style="display: inline-block">Falooda</p><input type="number" id="NumberOfFalooda" style="display: inline-block" value="0"></input>
+                <br>
+                <button id="SendingMessage" onclick="alert('Your order has been submitted! You will receive your food shortly to your targeted location.');">Done</button>
+            </form></div>
+        </div>
+        <br>
+        <br>
+        <div id="BottomOfPage"></div>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Reservations (The Adventure Ship Of Traditions)</title>
+    </head>
+
+    <style>
+        #FullPage{background-color:green;}
+
+        #TopOfPage{background-color:green; color:white;}
+        #AreaForTopInformation{height:52px; width:550px;}
+        .TopInformation{text-indent:30px;}
+        #SpecificPicture{height:100px; width:225px;}
+        #NavigationBar{list-style-type:none; margin:0 auto; padding:0 auto; overflow:hidden;}
+        .PartsOfNavigationBar{display:inline; float:left; border-style:solid; border-color:black; border-width:5px; background-color:white;}
+        .PartsOfNavigationBar .LocationOfPage{display:block; padding:8px; color:black; text-decoration:none; padding:14px 16px auto;}
+
+        #MiddleOfPage{background-color:white; color:black;}
+        #FastNavigation{background-color:black; color:white; width:100px; height:50px; margin-left:20px auto;}
+        #MainInformationTitle{color:black; font-size:30px;}
+        #AreaOfReservation{background-color:white; color:black; position:relative; left:30px;}
+
+        #BottomOfPage{background-color:green;color:black;}
+    </style>
+
+    <body id="FullPage">
+        <div id="TopOfPage">
+            <table>
+                <tr>
+                    <td id="AreaForTopInformation">
+                        <h1 class="TopInformation" style="font-weight:bold;">The Adventure Ship Of Traditions</h1>
+                        <p class="TopInformation" style="font-weight:bold;">A Restaurant Of Indian Vegetarian Food</p>
+                    </td>
+                    <td id="AreaForTopPicture"><img src="UsedPicturesArea/DesignForPictureForRepresentingBusinessForWebsite.png" alt="Business" id="SpecificPicture"></img></td>
+                </tr>
+            </table>
+            <ul id="NavigationBar">
+                <li class="PartsOfNavigationBar"><a href="WebsiteMainPage.html" class="LocationOfPage">Home</a></li>
+                <li class="PartsOfNavigationBar"><a href="AboutPageForWebsite.html" class="LocationOfPage">About</a></li>
+                <li class="PartsOfNavigationBar"><a href="ContactPage.html" class="LocationOfPage">Contact</a></li>
+                <li class="PartsOfNavigationBar"><a href="ReferencesPage.html" class="LocationOfPage">References</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div id="MiddleOfPage">
+            <br>
+            <a href="WebsiteMainPage.html"><button type="button" id="FastNavigation">Back</button></a>
+            <br>
+            <p id="MainInformationTitle" style="text-indent:30px;">Reservations:</p>
+            <p style="text-indent:30px;">Please fill all of the following questions.</p>
+
+            <div id="AreaOfReservation"><form>
+                <p>First Name:</p><input type="text" required></input>
+                <p>Last Name:</p><input type="text" required></input>
+
+                <p>Email:</p><input type="email" required></input>
+                <p>Phone Number:</p><input type="text" required></input>
+
+                <p>Number Of People In Your Group:</p><input type="text"></input>
+
+                <p>Day:</p><input type="date"></input>
+                <p>Time:</p><input type="time"></input>
+
+                <br><br>
+
+                <button type="submit" onclick="alert('Your Information Has Been Sent')">Done</button>
+            </form></div>
+        </div>
+        <br>
+        <div id="BottomOfPage"></div>
+    </body>
+</html>

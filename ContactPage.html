@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Contact (The Adventure Ship Of Traditions)</title>
+    </head>
+
+    <style>
+        #FullPage{background-color:green;}
+
+        #TopOfPage{background-color:green; color:white;}
+        #AreaForTopInformation{height:52px; width:550px;}
+        .TopInformation{text-indent:30px;}
+        #SpecificPicture{height:100px; width:225px;}
+        #NavigationBar{list-style-type:none; margin:0 auto; padding:0 auto; overflow:hidden;}
+        .PartsOfNavigationBar{display:inline; float:left; border-style:solid; border-color:black; border-width:5px; background-color:white;}
+        .PartsOfNavigationBar .LocationOfPage{display:block; padding:8px; color:black; text-decoration:none; padding:14px 16px auto;}
+
+        #MiddleOfPage{background-color:white; color:black;}
+        #AreaForWritingMessage{height:500px; width:800px;}
+        #AllInformationOfContact{background-color:white; color:black; position:relative; left:25px; right:25px;}
+        .GivenInformation{font-size:16.5px;}
+        #SpecificInformation{height:200px; width: 800px;}
+        #ProvidingMessage{background-color:green; color:white; font-size:16px; border:none;}
+        #ExtraSpace{height:500px; width:200px;}
+        #SecondSpecificPicture{height:300px; width:775px;}
+
+        #BottomOfPage{background-color:green;color:white;}
+    </style>
+
+<body id="FullPage">
+    <div id="TopOfPage">
+        <table>
+            <tr>
+                <td id="AreaForTopInformation">
+                    <h1 class="TopInformation" style="font-weight:bold;">The Adventure Ship Of Traditions</h1>
+                    <p class="TopInformation" style="font-weight:bold;">A Restaurant Of Indian Vegetarian Food</p>
+                </td>
+                <td id="AreaForTopPicture"><img src="UsedPicturesArea/DesignForPictureForRepresentingBusinessForWebsite.png" alt="Business" id="SpecificPicture"></img></td>
+            </tr>
+        </table>
+        <ul id="NavigationBar">
+            <li class="PartsOfNavigationBar"><a href="WebsiteMainPage.html" class="LocationOfPage">Home</a></li>
+            <li class="PartsOfNavigationBar"><a href="AboutPageForWebsite.html" class="LocationOfPage">About</a></li>
+            <li class="PartsOfNavigationBar"><a href="ContactPage.html" class="LocationOfPage">Contact</a></li>
+            <li class="PartsOfNavigationBar"><a href="ReferencesPage.html" class="LocationOfPage">References</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div id="MiddleOfPage">
+        <br>
+        <table>
+            <tr>
+                <td id="AreaForWritingMessage">
+                    <h2 id="TitleOfArea" style="text-indent:25px;">Contact Us</h2>
+                    <div id="AreaOfContact"><form id="AllInformationOfContact">
+                        <p class="GivenInformation" style="display:inline-block;">First Name: </p><input type="text" style="display:inline-block;"></input>
+                        <br>
+                        <p class="GivenInformation" style="display:inline-block;">Last Name: </p><input type="text" style="display:inline-block;"></input>
+                        <br>
+                        <p class="GivenInformation" style="display:inline-block;">Email: </p><input type="email" style="display:inline-block;"></input>
+                        <br>
+                        <p class="GivenInformation">Message: </p><textarea id="SpecificInformation"></textarea>
+                        <br><br>
+
+                        <button type="submit" id="ProvidingMessage"onclick="alert('Your message has been sent!')">Send</button>
+                    </form></div>
+                </td>
+                <td id="ExtraSpace"></td>
+                <td id="PictureForMessageInArea"><img src="UsedPicturesArea/DesignForPictureForRepresentingBusinessForWebsite.png" alt="Business" id="SecondSpecificPicture"></img></td>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <div id="BottomOfPage"></div>
+    </body>
+</html>
